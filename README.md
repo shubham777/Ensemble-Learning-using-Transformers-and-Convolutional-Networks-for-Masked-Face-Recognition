@@ -7,7 +7,7 @@ Please use this link provided by the authors to download the dataset:
 
 https://drive.google.com/drive/folders/1uiTAWdU2DMyy27j3H6BPnLCiQvFRH5nD
 
-#Modelling
+# Modelling
 
 ## CNN models fine-tuned on FaceNet dataset 
 Three CNN models fine-tuned on different pre-trained models (VGG16, EfficientNet, FaceNet) were studied. It was seen that the CNN models fine-tuned on FaceNet pre-trained model provided the best accuracy and hence, this model was selected for the for the final classification task. Since, FaceNet was trained only on images of maskless people and the aim of the project is to detect images of masked faces, the last layers of this model have been modified and a dropout and batch normalization layers were added to this model. The output features of this model were fed into the classification layer. A Softmax function in the classification layer was used, which assigns a probability for each predicted subject.
