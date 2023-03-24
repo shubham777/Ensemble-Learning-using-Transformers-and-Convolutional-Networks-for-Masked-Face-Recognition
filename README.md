@@ -7,8 +7,8 @@ Wearing a face mask was one of the changes we had to make to slow the spread of 
 ## Dataset and Pre-trained Models
 The proposed system was tested on a synthetically masked LFW dataset generated in this study. Moreover, the MAFA and RFMR datasets were used to verify the robustness of the proposed methodology.
 Please use these links to download the dataset and pre-trained models:
-<b>LFW dataset and pre-trained models: <\b> https://drive.google.com/drive/folders/1uiTAWdU2DMyy27j3H6BPnLCiQvFRH5nD
-<b>MAFA dataset: <\b>https://drive.google.com/drive/folders/1q0UwRZsNGuPtoUMFrP-U06DSYp_2E1wB
+1. <b>LFW dataset and pre-trained models: <\b> https://drive.google.com/drive/folders/1uiTAWdU2DMyy27j3H6BPnLCiQvFRH5nD
+2. <b>MAFA dataset: <\b>https://drive.google.com/drive/folders/1q0UwRZsNGuPtoUMFrP-U06DSYp_2E1wB
 
 
 ## Modelling
