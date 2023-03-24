@@ -28,8 +28,10 @@ Finally, in the paper, the 4 individual models (two FaceNet pre-trained models a
 
 ## Improvements from our implementation:
 1.  <b>Identifying best weights for each model:<\b> The original implementation involves majority voting involving equal weights for every model to create an ensemble. In order to explore improvements, we implemented the grid search to identify the optimal weights for every model before combining them. We found the following to be the optimum weights, with an accuracy of 92.015\% (similar to the original contribution). 
-  
-![image](https://user-images.githubusercontent.com/127759119/227574396-53f3e0ea-0430-4bba-8563-6b58932a576a.png)
+   
+ <p align="center">
+  <img url="[image.jpg](https://user-images.githubusercontent.com/127759119/227574396-53f3e0ea-0430-4bba-8563-6b58932a576a.png)" alt="weights-table">
+</p>
 
 2. <b>Using stacking ensemble techniques:</b> We used another approach for creating an ensemble of the
 originally proposed best-performing individual models, known as a stacked generalization or stacking.
@@ -49,4 +51,4 @@ CNN-FaceNet | 80.30% | 85.24% |
 Transformer | 69.04% | 78.70% |
 Ensemble Learning (Average weighted) | **92.01%** | **96.57%** |
 Ensemble Learning (Grid search weighted) | **92.01%** | **96.81%** |
-Ensemble Learning (Stacked) | **92.22%** | **98.12%** |
+Ensemble Learning (Stacked) | **94.22%** | **98.12%** |
