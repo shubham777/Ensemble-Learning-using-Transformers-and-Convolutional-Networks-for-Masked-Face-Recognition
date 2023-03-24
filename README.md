@@ -28,11 +28,11 @@ Finally, in the paper, the 4 individual models (two FaceNet pre-trained models a
 
 ## Improvements from our implementation:
 1.  <b>Identifying best weights for each model:<\b> The original implementation involves majority voting involving equal weights for every model to create an ensemble. In order to explore improvements, we implemented the grid search to identify the optimal weights for every model before combining them. We found the following to be the optimum weights, with an accuracy of 92.015\% (similar to the original contribution). 
-   
- <p align="center">
-  <img src="https://user-images.githubusercontent.com/127759119/227574396-53f3e0ea-0430-4bba-8563-6b58932a576a.png" alt="weights-table" width=500>
+   <p align ="center"> <b>Optimum weights found using grid search</b>
+ | FaceNet 1 | FaceNet 2| Transformer 1 | Transformer 2 
+| -- | -- | -- | -- |
+0.25 | 0.25 | 0.28 | 0.22 |
 </p>
-
 2. <b>Using stacking ensemble techniques:</b> We used another approach for creating an ensemble of the
 originally proposed best-performing individual models, known as a stacked generalization or stacking.
 Stacked generalization is an ensemble method in which a new model discovers the optimal way to combine
