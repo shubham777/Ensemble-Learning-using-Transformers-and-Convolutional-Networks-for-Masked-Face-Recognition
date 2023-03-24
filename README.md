@@ -30,7 +30,7 @@ Finally, in the paper, the 4 individual models (two FaceNet pre-trained models a
 1.  <b>Identifying best weights for each model:<\b> The original implementation involves majority voting involving equal weights for every model to create an ensemble. In order to explore improvements, we implemented the grid search to identify the optimal weights for every model before combining them. We found the following to be the optimum weights, with an accuracy of 92.015\% (similar to the original contribution). 
    
  <p align="center">
-  <img src="[image.jpg](https://user-images.githubusercontent.com/127759119/227574396-53f3e0ea-0430-4bba-8563-6b58932a576a.png)" alt="weights-table" width=300>
+  <img src="https://user-images.githubusercontent.com/127759119/227574396-53f3e0ea-0430-4bba-8563-6b58932a576a.png" alt="weights-table" width=300>
 </p>
 
 2. <b>Using stacking ensemble techniques:</b> We used another approach for creating an ensemble of the
